@@ -55,7 +55,7 @@ body {
 }
 /* Large devices (desktops, 948px and up) */
 @media (min-width: 948px) {
-.card {
+  .card {
     width: 18vh;
     height: 18vh;
   }
@@ -63,7 +63,7 @@ body {
 
  @media (max-width: 947px) {
   .card {
-  width: 20vw;
+    width: 20vw;
     height: 20vw;
   }
  }
