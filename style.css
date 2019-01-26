@@ -272,3 +272,14 @@ footer .disclaimer {
     font-size: 8px;
   }
 }
+
+#aquarium {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
