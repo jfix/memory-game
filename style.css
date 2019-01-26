@@ -51,10 +51,23 @@ body {
     background: white;
   }
 }
+/* Large devices (desktops, 948px and up) */
+@media (min-width: 948px) {
+.card {
+    width: 18vh;
+    height: 18vh;
+  }
+ }
+
+ @media (max-width: 947px) {
+  .card {
+  width: 20vw;
+    height: 20vw;
+  }
+ }
+
 .card {
   float: left;
-  width: 20vw;
-  height:20vw;
   padding: 5px;
   text-align: center;
   display: block;
