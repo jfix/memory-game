@@ -14,8 +14,8 @@ body {
 
 .wrap {
   /* IE9 fallback */
-  height:100vm;
-  width:80vm;
+  height: 100vm;
+  width: 80vm;
   height: 100vmin;
   width: 80vmin;
 
@@ -146,16 +146,6 @@ body {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
-/*@media (max-width: 800px) {
-  .card .front {
-    padding: 0;
-  }
-}
-@media (max-width: 800px) {
-  .card .back {
-    padding: 5px;
-  }
-}*/
 
 .modal-overlay {
   display: none;
